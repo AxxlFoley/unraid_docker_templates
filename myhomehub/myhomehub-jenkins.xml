@@ -54,6 +54,11 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
+      <HostDir>/root/.docker</HostDir>
+      <ContainerDir>/root/.docker</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+    <Volume>
       <HostDir>/var/run/docker.sock</HostDir>
       <ContainerDir>/var/run/docker.sock</ContainerDir>
       <Mode>rw</Mode>
