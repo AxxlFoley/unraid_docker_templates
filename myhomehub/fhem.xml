@@ -19,10 +19,10 @@
   It is pronounced without the h, like in feminine.
   </Overview>
   <Support></Support>
-  <Registry>https://registry.myhomehub.de/jenkins/</Registry>
+  <Registry>https://Axel:as31kr29@registry.myhomehub.de/fhem/</Registry>
   <GitHub>https://github.com/binhex/arch-jenkins</GitHub>
-  <Repository>registry.myhomehub.de/jenkins</Repository>
-  <Project>https://jenkins-ci.org/</Project>
+  <Repository>Axel:as31kr29@registry.myhomehub.de/fhem</Repository>
+  <Project>https://fhem.de/</Project>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <Networking>
@@ -92,7 +92,7 @@
     </Volume>
   </Data>
   <WebUI>https://fhem.myhomehub.de/</WebUI>
-  <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/fhem-icon.png?token=AC3ENX4HRWL76WH4IUJAFH257N7MC</Icon>
+  <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/fhem-icon.png</Icon>
   <DonateText></DonateText>
   <DonateLink></DonateLink>
   <DonateImg></DonateImg>
