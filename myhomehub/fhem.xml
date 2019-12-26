@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/jenkins.xml?token=AC3ENXY6PXPUJ7OAWEVWLUC57N67G</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/fhem.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
   <Name>fhem</Name>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/jenkins.xml?token=AC3ENXY6PXPUJ7OAWEVWLUC57N67G</TemplateURL>
+  <TemplateURL>https://github.com/AxxlFoley/unraid_docker_templates/blob/master/myhomehub/myhomehub-jenkins.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
   <Name>myhomehub-jenkins</Name>
@@ -58,19 +58,9 @@
       <ContainerDir>/var/run/docker.sock</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-    <Volume>
-      <HostDir>/etc/timezone</HostDir>
-      <ContainerDir>/etc/timezone</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/etc/localtime</HostDir>
-      <ContainerDir>/etc/localtime</ContainerDir>
-      <Mode>ro</Mode>
-    </Volume>
   </Data>
   <WebUI>https://jenkins.myhomehub.de/</WebUI>
-  <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/jenkins-icon.png?token=AC3ENX4HRWL76WH4IUJAFH257N7MC</Icon>
+  <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/jenkins-icon.png</Icon>
   <DonateText>If you appreciate my work, then please consider buying me a beer :D</DonateText>
   <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=MM5E27UX6AUU4</DonateLink>
   <DonateImg>https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif</DonateImg>
