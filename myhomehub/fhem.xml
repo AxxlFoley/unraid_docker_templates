@@ -19,9 +19,9 @@
   It is pronounced without the h, like in feminine.
   </Overview>
   <Support></Support>
-  <Registry>https://Axel:as31kr29@registry.myhomehub.de/fhem/</Registry>
+  <Registry>https://registry.myhomehub.de/fhem/</Registry>
   <GitHub>https://github.com/binhex/arch-jenkins</GitHub>
-  <Repository>Axel:as31kr29@registry.myhomehub.de/fhem</Repository>
+  <Repository>registry.myhomehub.de/fhem</Repository>
   <Project>https://fhem.de/</Project>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
