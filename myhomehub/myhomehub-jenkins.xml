@@ -49,7 +49,7 @@
   </Environment>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/config</HostDir>
+      <HostDir>/mnt/cache/appdata/jenkins</HostDir>
       <ContainerDir>/var/jenkins_home</ContainerDir>
       <Mode>rw</Mode>
     </Volume>

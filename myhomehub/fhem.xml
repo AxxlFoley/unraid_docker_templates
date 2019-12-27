@@ -76,7 +76,7 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata</HostDir>
+      <HostDir>/mnt/user/appdata/fhem</HostDir>
       <ContainerDir>/opt/fhem</ContainerDir>
       <Mode>rw</Mode>
     </Volume>

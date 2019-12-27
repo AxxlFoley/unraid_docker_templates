@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/fhem.js.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Productivity: Tools:</Category>
+  <Name>fhem</Name>
+  <Description>
+    [b][u][span style='color: #E80000;']Description[/span][/u][/b][br]
+    FHEM ist ein Computerprogramm, mit dem man Geräte in einem Haus automatisch steuern kann (Hausautomation).
+     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/config[/b] This is where FHEM will store it's configuration file and modules, database and logs.[br][br]
+    [b][u][span style='color: #E80000;']Documentation[/span][/u][/b][br]
+    https://github.com/fhem/fhem-docker [br][br]
+  </Description>
+  <Overview>
+  This is a node.js server which works as a websocket gateway to a fhem (home automation) server. Clients can use socket.io in Javascript and Java to establish a websocket connection to fhem.
+  It is possible to subscribe for updates of fhem resource stati like on/off or temperature. The websocket connection will deliver this values just in time. Furthermore fhem commands could be send other this connection.
+  </Overview>
+  <Support></Support>
+  <Registry>https://registry.myhomehub.de/fhem.js/</Registry>
+  <GitHub>https://github.com/winne27/fhem.js/</GitHub>
+  <Repository>registry.myhomehub.de/fhem.js</Repository>
+  <Project>https://github.com/winne27/fhem.js/tree/master</Project>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8086</HostPort>
+        <ContainerPort>8086</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment></Environment>
+  <Data>
+    <Volume>
+      <HostDir>/dev/serial/by-id</HostDir>
+      <ContainerDir>/dev/serial/by-id</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/fhem.js/params</HostDir>
+      <ContainerDir>/etc/fhem.js</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/fhem.js/node</HostDir>
+      <ContainerDir>/usr/local/lib/node_modules/fhem.js</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>https://fhem.myhomehub.de/</WebUI>
+  <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/fhem.js-icon.png</Icon>
+  <DonateText></DonateText>
+  <DonateLink></DonateLink>
+  <DonateImg></DonateImg>
+  <ExtraParams></ExtraParams>
+</Containers>
