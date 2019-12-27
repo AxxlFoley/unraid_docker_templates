@@ -5,12 +5,8 @@
   <Category>Productivity: Tools:</Category>
   <Name>fhem</Name>
   <Description>
-    [b][u][span style='color: #E80000;']Description[/span][/u][/b][br]
-    FHEM ist ein Computerprogramm, mit dem man Geräte in einem Haus automatisch steuern kann (Hausautomation).
-     [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-    [b]/config[/b] This is where FHEM will store it's configuration file and modules, database and logs.[br][br]
-    [b][u][span style='color: #E80000;']Documentation[/span][/u][/b][br]
-    https://github.com/fhem/fhem-docker [br][br]
+    This is a node.js server which works as a websocket gateway to a fhem (home automation) server. Clients can use socket.io in Javascript and Java to establish a websocket connection to fhem.
+  It is possible to subscribe for updates of fhem resource stati like on/off or temperature. The websocket connection will deliver this values just in time. Furthermore fhem commands could be send other this connection. 
   </Description>
   <Overview>
   This is a node.js server which works as a websocket gateway to a fhem (home automation) server. Clients can use socket.io in Javascript and Java to establish a websocket connection to fhem.
@@ -35,11 +31,6 @@
   </Networking>
   <Environment></Environment>
   <Data>
-    <Volume>
-      <HostDir>/dev/serial/by-id</HostDir>
-      <ContainerDir>/dev/serial/by-id</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
     <Volume>
       <HostDir>/mnt/user/appdata/fhem.js/params</HostDir>
       <ContainerDir>/etc/fhem.js</ContainerDir>
