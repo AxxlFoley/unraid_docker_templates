@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Containers>
+    <TemplateURL>https://github.com/AxxlFoley/unraid_docker_templates/blob/master/myhomehub/myhomehub-backend.xml</TemplateURL>
+    <Beta>False</Beta>
+    <Category>Productivity: Tools:</Category>
+    <Name>myhomehub-backend</Name>
+    <Description>
+    [b][u]myhomehub backend part with sbfspot [/u][/b]
+  </Description>
+    <Overview>
+        myhomehub backend part with sbfspot 
+    </Overview>
+    <Support></Support>
+    <Registry>https://registry.myhomehub.de/myhomehub-backend</Registry>
+    <GitHub>https://github.com/binhex/arch-jenkins</GitHub>
+    <Repository>registry.myhomehub.de/myhomehub-backend</Repository>
+    <Project>https://www.myhomehub.de</Project>
+    <BindTime>true</BindTime>
+    <Privileged>true</Privileged>
+    <Networking>
+        <Mode>host</Mode>
+    </Networking>
+    <Data>
+        <Volume>
+            <HostDir>/dev/serial/by-id</HostDir>
+            <ContainerDir>/dev/serial/by-id</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+        <Volume>
+            <HostDir>/mnt/user/appdata/myhomehub-scripts</HostDir>
+            <ContainerDir>/home/scripts</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+        <Volume>
+            <HostDir>/mnt/user/appdata/myhomehub-db</HostDir>
+            <ContainerDir>/home/db</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+        <Volume>
+            <HostDir>/mnt/user/appdata/myhomehub-backend/SBFspot.cfg</HostDir>
+            <ContainerDir>/opt/sbfspot/SBFspot.cfg</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
+    <WebUI>https://www.myhomehub.de/</WebUI>
+    <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/myhomehub-backend.png</Icon>
+    <DonateText></DonateText>
+    <DonateLink></DonateLink>
+    <DonateImg></DonateImg>
+    <ExtraParams></ExtraParams>
+</Containers>
