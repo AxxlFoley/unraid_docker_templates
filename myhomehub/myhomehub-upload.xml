@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Containers>
+  <TemplateURL>https://github.com/AxxlFoley/unraid_docker_templates/blob/master/myhomehub/myhomehub-upload.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Productivity: Tools:</Category>
+  <Name>myhomehub-upload</Name>
+  <Description>
+   PV Upload
+  </Description>
+  <Overview>
+  Jenkins is an open source continuous integration tool written in Java. The project was forked from Hudson after a dispute with Oracle. Jenkins provides continuous integration services for software development. It is a server-based system running in a servlet container such as Apache Tomcat.
+  </Overview>
+  <Support></Support>
+  <Registry>https://registry.myhomehub.de/myhomehub-upload</Registry>
+  <GitHub></GitHub>
+  <Repository>registry.myhomehub.de/myhomehub-upload</Repository>
+  <Project></Project>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Environment></Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/myhomehub-upload/SBFspotUpload.cfg</HostDir>
+      <ContainerDir>/SBFspot/SBFspotUploadDaemon/SBFspotUpload.cfg</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/myhomehub-backend.png</Icon>
+  <DonateText></DonateText>
+  <DonateLink></DonateLink>
+  <DonateImg></DonateImg>
+  <ExtraParams></ExtraParams>
+</Containers>
