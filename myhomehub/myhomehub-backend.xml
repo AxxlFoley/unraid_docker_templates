@@ -38,7 +38,7 @@
         </Volume>
         <Volume>
             <HostDir>/mnt/user/appdata/myhomehub-backend/SBFspot.cfg</HostDir>
-            <ContainerDir>/opt/sbfspot/SBFspot.cfg</ContainerDir>
+            <ContainerDir>/SBFspot/SBFspot/SBFspot.cfg</ContainerDir>
             <Mode>rw</Mode>
         </Volume>
     </Data>
