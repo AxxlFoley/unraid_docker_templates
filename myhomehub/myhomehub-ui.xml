@@ -19,11 +19,13 @@
     <Privileged>true</Privileged>
     <Networking>
         <Mode>bridge</Mode>
+         <Publish>
          <Port>
         <HostPort>1509</HostPort>
         <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+       </Publish>
     </Networking>
     <Data>
       

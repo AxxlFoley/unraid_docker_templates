@@ -19,11 +19,13 @@
   <Privileged>true</Privileged>
   <Networking>
     <Mode>bridge</Mode>
+     <Publish>
       <Port>
         <HostPort>3001</HostPort>
         <ContainerPort>3001</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
+       </Publish>
   </Networking>
   <Environment></Environment>
   <Data>
