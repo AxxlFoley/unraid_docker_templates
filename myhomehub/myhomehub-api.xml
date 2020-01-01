@@ -35,5 +35,5 @@
   <DonateText></DonateText>
   <DonateLink></DonateLink>
   <DonateImg></DonateImg>
-  <ExtraParams>--link mysql:mysql</ExtraParams>
+  <ExtraParams></ExtraParams>
 </Containers>

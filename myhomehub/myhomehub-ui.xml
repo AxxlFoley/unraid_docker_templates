@@ -35,5 +35,5 @@
     <DonateText></DonateText>
     <DonateLink></DonateLink>
     <DonateImg></DonateImg>
-    <ExtraParams>--link myhomehub-api:myhomehub-api</ExtraParams>
+    <ExtraParams></ExtraParams>
 </Containers>
