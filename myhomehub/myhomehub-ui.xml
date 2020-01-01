@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Containers>
+    <TemplateURL>https://github.com/AxxlFoley/unraid_docker_templates/blob/master/myhomehub/myhomehub-ui.xml</TemplateURL>
+    <Beta>False</Beta>
+    <Category>Productivity: Tools:</Category>
+    <Name>myhomehub-ui</Name>
+    <Description>
+    [b][u]myhomehub ui part [/u][/b]
+  </Description>
+    <Overview>
+        myhomehub ui part 
+           </Overview>
+    <Support></Support>
+    <Registry>https://registry.myhomehub.de/myhomehub</Registry>
+    <GitHub>https://bitbucket.org/Axxlfoley/myhomehub/src/master/</GitHub>
+    <Repository>registry.myhomehub.de/myhomehub</Repository>
+    <Project>https://www.myhomehub.de</Project>
+    <BindTime>true</BindTime>
+    <Privileged>true</Privileged>
+    <Networking>
+        <Mode>bridge</Mode>
+         <Port>
+        <HostPort>1509</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Networking>
+    <Data>
+      
+    </Data>
+    <WebUI>https://www.myhomehub.de/</WebUI>
+    <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/myhomehub-backend.png</Icon>
+    <DonateText></DonateText>
+    <DonateLink></DonateLink>
+    <DonateImg></DonateImg>
+    <ExtraParams>--link myhomehub-api:myhomehub-api</ExtraParams>
+</Containers>

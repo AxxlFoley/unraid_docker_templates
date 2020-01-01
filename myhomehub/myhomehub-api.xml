@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Containers>
+  <TemplateURL>https://github.com/AxxlFoley/unraid_docker_templates/blob/master/myhomehub/myhomehub-api.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Productivity: Tools:</Category>
+  <Name>myhomehub-api</Name>
+  <Description>
+   myHomeHub Api layer (NodeJS)
+  </Description>
+  <Overview>
+    myHomeHub Api layer (NodeJS)
+  </Overview>
+  <Support></Support>
+  <Registry>https://registry.myhomehub.de/myhomehub-api</Registry>
+  <GitHub></GitHub>
+  <Repository>registry.myhomehub.de/myhomehub-api</Repository>
+  <Project></Project>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+      <Port>
+        <HostPort>3001</HostPort>
+        <ContainerPort>3001</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+  </Networking>
+  <Environment></Environment>
+  <Data>
+  </Data>
+  <WebUI></WebUI>
+  <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/myhomehub-backend.png</Icon>
+  <DonateText></DonateText>
+  <DonateLink></DonateLink>
+  <DonateImg></DonateImg>
+  <ExtraParams>--link mysql:mysql</ExtraParams>
+</Containers>
