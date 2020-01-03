@@ -19,21 +19,20 @@
   <Privileged>true</Privileged>
   <Networking>
     <Mode>bridge</Mode>
-     <Publish>
+    <Publish>
       <Port>
         <HostPort>3001</HostPort>
         <ContainerPort>3001</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
-       </Publish>
+    </Publish>
   </Networking>
   <Environment></Environment>
-  <Data>
-  </Data>
+  <Data></Data>
   <WebUI></WebUI>
   <Icon>https://raw.githubusercontent.com/AxxlFoley/unraid_docker_templates/master/myhomehub/images/myhomehub-backend.png</Icon>
   <DonateText></DonateText>
   <DonateLink></DonateLink>
   <DonateImg></DonateImg>
-  <ExtraParams></ExtraParams>
+  <ExtraParams>--add-host=mysql:192.168.178.14</ExtraParams>
 </Containers>
