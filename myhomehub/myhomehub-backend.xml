@@ -47,5 +47,5 @@
     <DonateText></DonateText>
     <DonateLink></DonateLink>
     <DonateImg></DonateImg>
-    <ExtraParams></ExtraParams>
+    <ExtraParams>--add-host=mysql:192.168.178.14</ExtraParams>
 </Containers>
